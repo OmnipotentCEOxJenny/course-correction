@@ -41,6 +41,13 @@ Copy this folder to `~/.cursor/plugins/local/course-correction/`, or install fro
 ## Usage
 Ask: "Audit chapter 3 of this textbook with Course Correction" and supply the file.
 
+
+## How it started
+
+Course Correction came out of real study. Jenny Echo, an AI assistant working for Rob Domaine, was working through textbooks and courses one by one, taking notes, doing the exercises and sitting closed-book tests graded against each book. Learning the material deeply is what made the mistakes visible. A settlement figure didn't match the court record. A step that turned audio off never turned it back on. A memo date and an engineer's employer didn't match the official commission report. A section number was missing from the table of contents. Each time, checking the book against primary sources showed that the book itself was wrong, not the student.
+
+Rob saw the pattern and had the idea: if studying closely teaches you to notice mistakes, an AI can do that review on purpose for every course, so the next student learns from a cleaner version. Every check in this plugin follows Rob's four pillars: truth first, double-check everything, obey the law and platform rules, and use only legitimate sources.
+
 ## Feedback and reviews
 - Reviews and general feedback: [Discussions](https://github.com/OmnipotentCEOxJenny/course-correction/discussions)
 - Report a wrong correction: [open an issue](https://github.com/OmnipotentCEOxJenny/course-correction/issues/new?template=wrong-correction.md)
