@@ -1,36 +1,40 @@
 ---
 name: audit-course-material
-description: Audit a course document, class handout, textbook chapter or section for wrong facts, math slips, outdated claims, unclear passages and typos. Produces a sourced correction report and an improved corrected version. Use when a user asks to review, fact-check, correct or improve course material.
+description: Audit any course, class, textbook, test, quiz, workbook, answer key or study guide, at any level (K-12, college, graduate, vocational, corporate, licensing and certification prep) and in any field, for wrong facts, math slips, outdated claims, unclear passages and typos. Produces a double-checked correction report and an improved version. Use when a user asks to review, fact-check, correct or improve education material.
 ---
 
 # Audit course material
 
-## Trigger
-The user supplies a course, class, textbook chapter or section (file, pasted text or path) and wants it checked and corrected.
+Follow Rob Domaine's four pillars in `rules/source-integrity.mdc` at every step. They are required, not optional.
 
 ## Inputs
-- The material (required). Record its title, edition and location markers (page, line, section).
-- Optional: subject level, publication date, sources the user trusts.
+- The material (required), supplied by the user. Record title, edition, date, level, field and location markers (page, line, section, question number).
+- Optional: jurisdiction, exam or standard version (for example "Series 7 outline, current edition", "NEC 2023"), sources the user trusts.
 
 ## Workflow
-1. **Extract.** List every checkable item with its location: factual claims, named people and organizations, dates, figures, money amounts, formulas, worked calculations, cross-references (for example "see Table 13.1"), section numbering, and commands or UI steps.
-2. **Check facts.** For each claim, look for a legitimate primary source (see `rules/source-integrity.mdc`). Record the source title and where in it the answer is. If no source can be reached, mark the item UNVERIFIED. Never make one up.
-3. **Recompute the math.** Redo every calculation from its stated inputs. Show inputs, steps and result. Note rounding effects separately from real errors.
-4. **Check internal consistency.** Do cross-references point to the right table or figure? Is section numbering continuous? Do later steps contradict earlier setup (for example a setting turned off and never turned back on)?
-5. **Flag outdated material.** Note claims tied to a date, version, price, law or software release that may have changed. Give the date of the source used for the update.
-6. **Classify each issue.**
-   - Type: `fact`, `math`, `outdated`, `unclear`, `typo` (use `structure` for numbering or cross-reference gaps).
-   - Severity: `high` (teaches a wrong answer or would fail a student), `medium` (misleading or confusing), `low` (cosmetic).
-   - Confidence: `high` (primary source or exact recomputation), `medium` (strong secondary or internal evidence), `low` (judgment call), `unverified`.
-7. **Write the correction report** using `references/report-template.md`: one row per issue with location, original, correction, source or method, type, severity, confidence.
-8. **Write the improved version** of the material: apply only corrections at medium or high confidence, mark each change inline as `[corrected: issue #N]`, and leave UNVERIFIED items unchanged with a `[check: issue #N]` note.
-9. **Summarize**: counts by type and severity, a list of unverified items, and what was not checked.
+1. **Pillar 3 gate (laws and platform rules).** Confirm the user supplied the material. If it looks like confidential exam content or proprietary prep material the user may not share, stop and say so. Quote only short excerpts in the report.
+2. **Identify field and level.** Open `references/field-guide.md`, pick the row(s) that apply, and note the authoritative sources and the current version and date to check against.
+3. **Extract.** List every checkable item with its location: facts, names, dates, figures, money amounts, rule and statute numbers, formulas, calculations, cross-references, numbering, commands and UI steps, answer-key answers.
+4. **Check facts (pillar 4).** Use the highest source tier available. Record source title, issuing body, version or date, and where in it the answer is. Reject unreliable sources.
+5. **Recompute the math.** Redo each calculation from its inputs. Show the steps. Separate rounding from real errors.
+6. **Check internal consistency.** Cross-references, numbering, settings changed in one step and assumed later, answer keys vs the text.
+7. **Flag outdated material.** Any rule, limit, rate, code edition, guideline or software version that changed since publication. Give the current value and its effective date.
+8. **Double-check (pillar 2).** For each finding, do a second independent check: a second independent source, or a recomputation by a different method, or a recheck of the original text. Status:
+   - `CONFIRMED`: two independent checks agree.
+   - `SINGLE-CHECK`: only one check possible.
+   - `UNVERIFIED` (pillar 1): no legitimate source reachable. Never guess.
+   - `WITHDRAWN`: the second check showed the material was right. Keep it in the report so the reasoning is visible.
+9. **Classify.** Type (`fact`, `math`, `outdated`, `unclear`, `typo`, `structure`), severity (`high` teaches a wrong answer or fails a student, `medium` misleading, `low` cosmetic) and confidence (`high`, `medium`, `low`).
+10. **High-stakes label.** For medical, legal and financial findings add "Review aid, not professional advice. Needs expert confirmation."
+11. **Write the correction report** with `references/report-template.md`: original (exact quote), correction, check 1, check 2, status, type, severity, confidence.
+12. **Write the improved version.** Apply only CONFIRMED corrections, tagged `[corrected: #N]`. Mark SINGLE-CHECK and UNVERIFIED items `[check: #N]` and leave the text unchanged.
+13. **Summarize.** Counts by status, type and severity; unverified list; what was not checked; versions and dates of the sources used.
 
 ## Guardrails
-- Never invent sources, quotes or page numbers. "Unverifiable with available sources" is a valid result.
-- Do not mark the original author wrong on style alone; style goes under `unclear` at low severity.
-- Keep the original text intact in the report so every change can be reviewed.
+- Never invent sources, quotes, rule numbers or page numbers.
+- Never reproduce copyrighted or confidential exam questions or proprietary prep material.
+- Style preferences are `unclear` at low severity, not errors.
 - Free tools only. No paid APIs, no Google or Facebook services.
 
 ## Worked examples
-See `examples/echo-findings.md` for real findings (DaVinci Resolve training book, project management textbook, technical writing textbook) and `examples/sample-report.md` for a full run.
+`examples/echo-findings.md` (re-verified findings, including one withdrawn) and `examples/sample-report.md` (a full run).

@@ -6,7 +6,7 @@ description: Turn one or more correction reports into a short errata sheet for s
 # Build errata sheet
 
 ## Workflow
-1. Collect issues from the correction reports. Drop items at low confidence or UNVERIFIED into a separate "Under review" section.
+1. Collect issues from the correction reports. Only CONFIRMED items go in the main list. Put SINGLE-CHECK, low confidence and UNVERIFIED items into a separate "Under review" section.
 2. Group by chapter or section, in book order.
 3. For each entry: location, "Reads", "Should read", one-line reason, source.
 4. Put high severity items first in each group and mark them.
@@ -16,3 +16,4 @@ description: Turn one or more correction reports into a short errata sheet for s
 ## Guardrails
 - Only include corrections that appear in a report with a source or shown math.
 - Never invent sources.
+- Add the expert-confirmation note to medical, legal and financial entries.

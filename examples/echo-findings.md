@@ -1,27 +1,28 @@
-# Worked examples: real findings from Echo's course audits
+# Worked examples: Echo's findings, re-verified 2026-10-14
 
-These come from Echo's own study of free textbooks (October 2026). Line numbers (L) refer to Echo's saved text copy of each book.
+High-severity items were re-checked twice (book text plus a second check). Others are marked UNCONFIRMED until re-checked. L = line in Echo's saved text copy of each book.
 
-## DaVinci Resolve training book (editing lessons)
-| Location | Type | Severity | Original | Correction | Method | Confidence |
+## DaVinci Resolve 20 Beginner's Guide
+| Location | Type | Severity | Finding | Check 1 | Check 2 | Status |
 |---|---|---|---|---|---|---|
-| L2309 vs L2503 | structure | high | A1 destination disabled at L2309; at L2503 the reader is told to place STORE 28 "with the audio" | Add a step to re-enable A1 before L2503 | Internal consistency check | high |
-| L4947 | typo | medium | "5.5 dBFS" used for a gain change | "5.5 dB" (dBFS is an absolute level, not a gain amount) | Unit check | high |
-| L4902 to L4906 | unclear | low | "+6 dB" in the text vs "3 dB" in the tooltip wording | Explain which value applies where | Internal consistency check | medium |
-| L5186 | unclear | medium | Linked Selection "enable" wording where the action disables it | "Disable Linked Selection" | Internal consistency check | high |
-| L3525 | typo | low | "WHITE SAND 36" | "WHITE SANDS 36" (clip name used elsewhere) | Internal consistency check | high |
+| L2309 vs L2503 | structure | high | A1 destination is disabled at L2309 and never re-enabled, yet L2503 says "Press F12 to make a Place on Top edit, with the audio" | Book text L2309 to L2503 re-read: no re-enable step | Search of L2300 to L2510 for A1 or destination: only the disable step | CONFIRMED |
+| L4947 | typo | medium | "around 5.5 dBFS" for a clip gain | | | UNCONFIRMED (likely dB; positive dBFS is not possible) |
+| L5186 | unclear | low | "This will enable you to adjust..." read as wrong wording | | | UNCONFIRMED (downgraded: "enable" here means "allow") |
+| L3525 | typo | low | "WHITE SAND 36"; clip is WHITE SANDS 36 everywhere else (L2265, L3073) | | | UNCONFIRMED |
+| L4902 to L4913 | | | "+6 dB" vs "3 dB" listed as a conflict | Book: tooltip shows -3 dB, +6 dB adjustment brings it to about +3 dB | -3 + 6 = +3 | WITHDRAWN (the book is consistent) |
 
-## Project management textbook (Chapters 12 and 13)
-| Location | Type | Severity | Original | Correction | Method | Confidence |
-|---|---|---|---|---|---|---|
-| Ch 12 text | math | medium | Total $661.25 | $661.65 (216.65 + 445) | Recomputed | high |
-| Table 12.4 | math | medium | Small Boxes BCWS $7.00 | $17.00 | Recomputed from table rows | high |
-| Table 12.5 | math | medium | SV shown without its sign | SV = -99.55 | Recomputed | high |
-| Ch 12 summary | fact | medium | SV compares "spent so far (EV)" | EV is earned value; money spent is AC | Definition check within the book | high |
-| Ch 13 text | structure | low | "Table 13.1 illustrates" cost-plus | Figure 13.2 | Cross-reference check | high |
+## Project Management, 2nd Edition (open textbook)
+| Location | Type | Severity | Finding | Status |
+|---|---|---|---|---|
+| L6015 | math | medium | Total "$661.25"; 216.65 + 445.00 = 661.65 | UNCONFIRMED (book text matches; second check pending) |
+| Table 12.4, L6217 | math | medium | Small Boxes BCWS "$7.00"; 10 x $1.70 = $17.00 (L5977, L6154) | UNCONFIRMED |
+| Table 12.5, L6442 | math | medium | SV shown as "$99.55"; text gives ($99.55), negative | UNCONFIRMED |
+| L6454 | fact | medium | SV is "the part of the budget that has been spent so far (EV)"; EV is earned value, spending is AC | UNCONFIRMED |
+| L6605 | structure | low | "Table 13.1 illustrates" cost-plus; that is Figure 13.2 (L6703) | UNCONFIRMED |
 
-## Technical writing textbook (TPW)
-| Location | Type | Severity | Original | Correction | Method | Confidence |
+## Technical and Professional Writing (TPW)
+| Location | Type | Severity | Finding | Check 1 | Check 2 | Status |
 |---|---|---|---|---|---|---|
-| Section numbering | structure | medium | Section 1.5 is missing from the sequence | Flag the numbering gap to the publisher; confirm against the official edition | Numbering check | medium |
-| Challenger case | fact | high | Engineers described as "MIT" | Morton Thiokol (MTI) | Echo course caveat; confirm against the Rogers Commission report (not re-opened for this example) | medium |
+| L933 to L955 | fact | high | Challenger engineers called "MIT engineer Roger Boisjoly" and "MIT's" | Rogers Commission report, Vol. 4 p. 691 (nasa.gov): "Interoffice Memo, Morton Thiokol, Inc.; From: R. Boisjoly to R.K. Lund" | Memo copy (Online Ethics Center): letterhead "Morton Thiokol, Inc, Wasatch Division" | CONFIRMED: Morton Thiokol (MTI) |
+| L933 | fact | high | NEW: memo dated "July 22, 1985" | Rogers Commission Vol. 4 p. 691: "Dated: 31 July 1985" | Memo copy: "31 July 1985" | CONFIRMED: July 31, 1985 |
+| Table of contents, L33 to L37 | structure | medium | Section 1.5 is missing (1.4 goes to 1.6) | | | UNCONFIRMED (the gap is in the TOC; whether it is intentional is not known) |

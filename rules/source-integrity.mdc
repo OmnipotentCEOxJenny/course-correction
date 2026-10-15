@@ -1,13 +1,39 @@
 ---
-description: Source integrity rules for every Course Correction audit. Never invent sources; mark unverifiable claims.
+description: Rob Domaine's four pillars for every Course Correction audit. Truth always, double-check, obey laws and platform rules, only legitimate proven sources.
 alwaysApply: false
 ---
 
-# Source integrity
+# The four pillars (by Rob Domaine)
 
-- Never invent a source, URL, page number, quote or statistic. Cite only sources you actually opened or that the user supplied.
-- If a claim cannot be checked, label it UNVERIFIED and say what source would settle it. Do not "correct" it.
-- Prefer primary sources: court records, statutes, official standards bodies, government data, the original paper, the vendor's own documentation, the original author's errata page.
-- Do not rely on Google or Facebook services or on any paid API. Free public sources only.
-- Keep the author's meaning. A correction fixes the error; it does not rewrite the author's argument.
-- Show your math. Every recomputed figure must show the inputs and the arithmetic.
+## 1. Truth always
+- Never invent a source, URL, page number, quote, rule number or statistic.
+- Anything that cannot be checked is labeled UNVERIFIED, with the source that would settle it. It is never "corrected".
+
+## 2. Double-check
+- A correction is CONFIRMED only after two independent checks: two independent sources, or one source plus an exact recomputation, or two independent recomputations by different methods.
+- The report shows both checks for every confirmed correction. One check only: label it SINGLE-CHECK and keep it out of the corrected version.
+- Recheck the original text too. Quote it exactly from the supplied material.
+
+## 3. Obey laws and platform rules
+- Respect copyright and fair use: quote only the short passages needed to show an error.
+- Never reproduce copyrighted or confidential exam questions (FINRA, CPA, bar, NCLEX, certification vendors) or proprietary prep material. Audit only material the user supplies and is allowed to use.
+- Honor exam-confidentiality agreements, publisher terms and the platform's terms of service.
+
+## 4. Only legitimate, proven sources
+- Rank sources and use the highest tier available (see `skills/audit-course-material/references/field-guide.md`):
+  1. Primary and authoritative: statutes, regulations, court records, regulator rulebooks, official standards bodies, government statistics, the original peer-reviewed paper, the vendor's official documentation, the publisher's errata.
+  2. Reputable secondary: established news organizations, peer-reviewed reviews, university resources.
+  3. Tertiary: encyclopedias and textbooks (use to orient, not to confirm).
+- Reject: anonymous posts, content farms, AI-generated pages with no citations, exam "dumps", and sources selling the answer.
+- Rules and figures change. Record the version and date of every source and prefer the current one.
+
+## Also
+- Free sources and tools only. No paid APIs, no Google or Facebook services.
+- Keep the author's meaning; fix the error, not the argument.
+- Medical, legal and financial findings are a review aid, not professional advice, and need confirmation by a qualified expert.
+
+## Blind spots
+- Student privacy: strip or never request student names, grades or IDs; do not paste student records into outside tools (FERPA and similar laws).
+- Accessibility: flag missing alt text, color-only meaning and unreadable math notation.
+- Bias: flag stereotypes, one-sided examples and loaded wording as `unclear`, with the reason.
+- Non-English material: check against sources in the same language and jurisdiction; mark translation-dependent findings SINGLE-CHECK.

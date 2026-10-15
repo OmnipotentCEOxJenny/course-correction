@@ -10,13 +10,26 @@ License: MIT. Free to use.
 
 Repository and homepage: https://github.com/OmnipotentCEOxJenny/course-correction
 
-Course Correction has an AI review existing courses, classes and textbooks. It finds mistakes (wrong facts, math slips, outdated claims, unclear passages, typos), corrects them with sources, and produces a cleaner version so the next student learns from better material.
+Course Correction has an AI review courses, tests, quizzes, workbooks, answer keys and study guides at every level (K-12, college and graduate, vocational and trade, corporate training, licensing and certification prep such as FINRA SIE and Series 7, 63, 65, 66, CPA, bar, NCLEX, IT, real estate and insurance), in every field. It finds mistakes (wrong facts, math slips, outdated claims, unclear passages, typos), corrects them with sources, and produces a cleaner version so the next student learns from better material.
+
+## Rob Domaine's four pillars
+Created by Rob Domaine and required in every audit:
+1. Truth always: never invent; unverifiable means UNVERIFIED.
+2. Double-check: every correction is confirmed twice, and the report shows both checks.
+3. Obey laws and platform rules: copyright and fair use, exam confidentiality, publisher terms.
+4. Only legitimate, proven sources: primary and authoritative first; unreliable sources rejected.
+
+## Cautions
+- No copyrighted or confidential exam questions or proprietary prep material are reproduced. It audits what you supply.
+- Medical, legal and financial output is a review aid, not professional advice; flags need expert confirmation.
+- Rules and figures change: it checks the current version and date.
 
 ## Components
 - `skills/audit-course-material`: the core audit. Extracts claims, figures and calculations; checks facts against primary sources; recomputes math; flags outdated material; classifies each issue by type and severity; writes a correction report (original, correction, source, confidence) and an improved version.
 - `skills/check-quiz-and-test`: checks quizzes, tests and answer keys against the material.
 - `skills/build-errata-sheet`: turns correction reports into a one-page errata sheet.
-- `rules/source-integrity.mdc`: never invent sources; mark unverifiable claims; free sources only.
+- `rules/source-integrity.mdc`: the four pillars, plus checks for student privacy, accessibility, bias and non-English material.
+- `skills/audit-course-material/references/field-guide.md`: what to check in each field and which authoritative sources to use.
 - `examples/`: real findings and a full sample report.
 
 ## Requirements
@@ -27,3 +40,8 @@ Copy this folder to `~/.cursor/plugins/local/course-correction/`, or install fro
 
 ## Usage
 Ask: "Audit chapter 3 of this textbook with Course Correction" and supply the file.
+
+## Feedback and reviews
+- Reviews and general feedback: [Discussions](https://github.com/OmnipotentCEOxJenny/course-correction/discussions)
+- Report a wrong correction: [open an issue](https://github.com/OmnipotentCEOxJenny/course-correction/issues/new?template=wrong-correction.md)
+- Feature request: [open an issue](https://github.com/OmnipotentCEOxJenny/course-correction/issues/new?template=feature-request.md)
