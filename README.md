@@ -5,6 +5,7 @@
 
 ## Project status: done, pending, uncertain
 **Done**
+- 2026-10-15: v1.1.5 merges the pillars into one section in Rob's words (rule file and README).
 - 2026-10-15: full re-test PASS (manifest, frontmatter, file links, JSON/CSV export columns, two end-to-end audits: TWE Appendix F and TLCL notes).
 - 2026-10-14: TWE comma-case corrections and the DaVinci A1, TPW "MIT" and Challenger memo-date findings CONFIRMED with two checks each.
 
@@ -34,7 +35,7 @@ Course Correction has an AI review courses, tests, quizzes, workbooks, answer ke
 ## Rob Domaine's four pillars
 Created by Rob Domaine and required in every audit:
 1. Trustworthy, honest, real data, truthful: never invent; anything unchecked is marked UNVERIFIED.
-2. Legitimate means only: legitimate, proven sources and methods; unreliable sources rejected.
+2. Use only legitimate means: legitimate, proven sources and methods; unreliable sources rejected.
 3. Double-check everything: every finding is confirmed by two independent checks, and the report shows both.
 4. Stay within the law and rules always: local, county, state, federal and platform rules.
 
