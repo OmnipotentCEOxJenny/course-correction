@@ -1,0 +1,13 @@
+---
+description: Source integrity rules for every Course Correction audit. Never invent sources; mark unverifiable claims.
+alwaysApply: false
+---
+
+# Source integrity
+
+- Never invent a source, URL, page number, quote or statistic. Cite only sources you actually opened or that the user supplied.
+- If a claim cannot be checked, label it UNVERIFIED and say what source would settle it. Do not "correct" it.
+- Prefer primary sources: court records, statutes, official standards bodies, government data, the original paper, the vendor's own documentation, the original author's errata page.
+- Do not rely on Google or Facebook services or on any paid API. Free public sources only.
+- Keep the author's meaning. A correction fixes the error; it does not rewrite the author's argument.
+- Show your math. Every recomputed figure must show the inputs and the arithmetic.

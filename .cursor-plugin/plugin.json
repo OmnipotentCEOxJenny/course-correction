@@ -1,0 +1,13 @@
+{
+  "name": "course-correction",
+  "displayName": "Course Correction",
+  "version": "1.0.0",
+  "description": "Audits courses, classes and textbooks for wrong facts, math slips and outdated claims, then produces a sourced correction report and a cleaner corrected version.",
+  "author": { "name": "Rob Domaine / Omnipotent Media LLC" },
+  "publisher": "Omnipotent Media LLC",
+  "homepage": "https://github.com/OmnipotentCEOxJenny/course-correction",
+  "repository": "https://github.com/OmnipotentCEOxJenny/course-correction",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["education", "textbook", "errata", "fact-checking", "course-review", "math-check"]
+}
