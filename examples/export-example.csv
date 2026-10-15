@@ -1,0 +1,2 @@
+id,location,type,severity,score,original,correction,check1,check2,status,confidence
+1,TWE L9522,fact,high,9,"a $10 million dollar payout","settled for $5,000,000","D. Me. settlement order (2018)","recomputed per-member average matches",CONFIRMED,high

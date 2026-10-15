@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.2 (2026-10-14)
+- JSON and CSV export examples.
+
 ## 1.1.1 (2026-10-14)
 - Clearer trigger description, README quick start, edge cases (huge documents, scanned PDFs, non-English, conflicting and paywalled sources), severity scoring, JSON and CSV export.
 

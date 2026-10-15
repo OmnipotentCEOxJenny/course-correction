@@ -1,0 +1,4 @@
+[
+  {"id": 1, "location": "TWE L9522", "type": "fact", "severity": "high", "score": 9, "original": "a $10 million dollar payout", "correction": "settled for $5,000,000", "check1": "D. Me. order approving settlement (2018)", "check2": "recomputed per-member average $26,912.57 matches the order", "status": "CONFIRMED", "confidence": "high"},
+  {"id": 6, "location": "TWE L9520", "type": "fact", "severity": "low", "score": 1, "original": "a 10-page contract", "correction": "14-page contract", "check1": "Globe and Mail", "check2": "", "status": "SINGLE-CHECK", "confidence": "medium"}
+]
