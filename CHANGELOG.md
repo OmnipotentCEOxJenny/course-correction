@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1 (2026-10-14)
+- Clearer trigger description, README quick start, edge cases (huge documents, scanned PDFs, non-English, conflicting and paywalled sources), severity scoring, JSON and CSV export.
+
 ## 1.1.0 (2026-10-14)
 - Scope covers all levels, fields and material types, including licensing and certification prep.
 - Added field guide, Rob Domaine's four pillars as required steps, double-check statuses, licensing and high-stakes cautions, blind-spot checks.

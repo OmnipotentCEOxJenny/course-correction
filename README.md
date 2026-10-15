@@ -12,6 +12,11 @@ Repository and homepage: https://github.com/OmnipotentCEOxJenny/course-correctio
 
 Course Correction has an AI review courses, tests, quizzes, workbooks, answer keys and study guides at every level (K-12, college and graduate, vocational and trade, corporate training, licensing and certification prep such as FINRA SIE and Series 7, 63, 65, 66, CPA, bar, NCLEX, IT, real estate and insurance), in every field. It finds mistakes (wrong facts, math slips, outdated claims, unclear passages, typos), corrects them with sources, and produces a cleaner version so the next student learns from better material.
 
+## Quick start
+1. Install (see Installation).
+2. Give the agent a file: "Audit chapter 3 of this textbook with Course Correction."
+3. Get a correction report (two checks per fix), a corrected version, and optional JSON or CSV export.
+
 ## Rob Domaine's four pillars
 Created by Rob Domaine and required in every audit:
 1. Truth always: never invent; unverifiable means UNVERIFIED.

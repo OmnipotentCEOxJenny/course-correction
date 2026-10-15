@@ -1,6 +1,6 @@
 ---
 name: audit-course-material
-description: Audit any course, class, textbook, test, quiz, workbook, answer key or study guide, at any level (K-12, college, graduate, vocational, corporate, licensing and certification prep) and in any field, for wrong facts, math slips, outdated claims, unclear passages and typos. Produces a double-checked correction report and an improved version. Use when a user asks to review, fact-check, correct or improve education material.
+description: Fact-check, error-check and correct education material. Use whenever a user asks to review, audit, fact-check, proofread, find errors in, verify the math of, or improve a course, lesson, textbook, chapter, handout, test, quiz, workbook, answer key, study guide or exam-prep material, at any level or field. Produces a double-checked correction report and a corrected version.
 ---
 
 # Audit course material
@@ -29,6 +29,19 @@ Follow Rob Domaine's four pillars in `rules/source-integrity.mdc` at every step.
 11. **Write the correction report** with `references/report-template.md`: original (exact quote), correction, check 1, check 2, status, type, severity, confidence.
 12. **Write the improved version.** Apply only CONFIRMED corrections, tagged `[corrected: #N]`. Mark SINGLE-CHECK and UNVERIFIED items `[check: #N]` and leave the text unchanged.
 13. **Summarize.** Counts by status, type and severity; unverified list; what was not checked; versions and dates of the sources used.
+
+## Edge cases
+- Huge documents: audit in chunks by chapter or section; keep one running issue list with global numbering; state which parts were covered.
+- Scanned PDFs: extract text with `pdftotext` (poppler); if there is no text layer, OCR with free tesseract if available, otherwise ask for a text copy. Mark OCR-dependent quotes SINGLE-CHECK.
+- Non-English material: check against sources in the same language and jurisdiction; do not translate before quoting the original.
+- Conflicting sources: prefer the higher tier and the newer effective date; report the conflict and both sources; status SINGLE-CHECK if unresolved.
+- Paywalled sources: never bypass a paywall. Use a free authoritative alternative, or mark UNVERIFIED and name the source that would settle it.
+
+## Severity scoring
+Score = impact (3 teaches a wrong answer or fails a student, 2 misleading, 1 cosmetic) x reach (3 core concept or tested item, 2 example, 1 aside). 6-9 high, 3-4 medium, 1-2 low.
+
+## Export
+On request, also output the issue table as JSON (array of objects with fields: id, location, type, severity, score, original, correction, check1, check2, status, confidence) or CSV with the same columns.
 
 ## Guardrails
 - Never invent sources, quotes, rule numbers or page numbers.
