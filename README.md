@@ -2,6 +2,20 @@
 
 ![Course Correction logo](assets/logo.png)
 
+
+## Project status: done, pending, uncertain
+**Done**
+- 2026-10-15: full re-test PASS (manifest, frontmatter, file links, JSON/CSV export columns, two end-to-end audits: TWE Appendix F and TLCL notes).
+- 2026-10-14: TWE comma-case corrections and the DaVinci A1, TPW "MIT" and Challenger memo-date findings CONFIRMED with two checks each.
+
+**Pending**
+- Low-priority examples are SINGLE-CHECK and still need a second independent check: the five project management book items, the low-severity DaVinci items, and TPW section 1.5.
+- Marketplace review: submitted 2026-10-14, pending, no approval yet.
+
+**Uncertain**
+- How the listing works on the Grok Bot and Grok side: not described in the Cursor publisher terms, so not confirmed.
+- Whether xAI review will require changes: unknown until review.
+
 ## Credits
 - Inventor and publisher: Rob Domaine / Omnipotent Media LLC
 - Builder: Jenny Echo
@@ -19,10 +33,10 @@ Course Correction has an AI review courses, tests, quizzes, workbooks, answer ke
 
 ## Rob Domaine's four pillars
 Created by Rob Domaine and required in every audit:
-1. Truth always: never invent; unverifiable means UNVERIFIED.
-2. Double-check: every correction is confirmed twice, and the report shows both checks.
-3. Obey laws and platform rules: copyright and fair use, exam confidentiality, publisher terms.
-4. Only legitimate, proven sources: primary and authoritative first; unreliable sources rejected.
+1. Trustworthy, honest, real data, truthful: never invent; anything unchecked is marked UNVERIFIED.
+2. Legitimate means only: legitimate, proven sources and methods; unreliable sources rejected.
+3. Double-check everything: every finding is confirmed by two independent checks, and the report shows both.
+4. Stay within the law and rules always: local, county, state, federal and platform rules.
 
 ## Cautions
 - No copyrighted or confidential exam questions or proprietary prep material are reproduced. It audits what you supply.

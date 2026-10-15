@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4 (2026-10-15)
+- Added README "Project status: done, pending, uncertain" section.
+- Pillars restated in Rob Domaine's wording in the README and rule file.
+
 ## 1.1.3 (2026-10-15)
 - Full re-test. Status labels in examples aligned to the defined set (UNCONFIRMED replaced by SINGLE-CHECK). Added a second real sample report (TLCL notes, HISTSIZE). Note on the older sample report format.
 
