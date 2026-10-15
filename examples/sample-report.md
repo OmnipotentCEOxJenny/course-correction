@@ -9,6 +9,7 @@ Test file: /workspace/echo-education/mail-notes.md (read only; not edited)
 3. "a trucker serial-comma case cost $10M" (L388)
 
 ## Issues
+Status for each issue is listed under Re-verification below (this report predates the Check 1 / Check 2 columns of the template).
 
 | # | Location | Type | Severity | Original | Correction | Source or method | Confidence |
 |---|----------|------|----------|----------|------------|------------------|------------|
@@ -26,7 +27,7 @@ Origin check: the book text (books/technical-writing-essentials.txt) was opened.
 - #5 CONFIRMED, two checks: First Circuit opinion, O'Connor v. Oakhurst Dairy, 851 F.3d 69 (1st Cir. 2017), plus the court order saying the judgment "was reversed on appeal".
 - #2 CONFIRMED, two checks: CRTC Telecom Decision 2007-75 (reversal), plus Globe and Mail and Legal500 (about C$700,000).
 - #3 CONFIRMED, two checks: BBC News (claimed, then settled confidentially), plus The Guardian.
-- #4 and #6 UNCONFIRMED (single source).
+- #4 and #6 SINGLE-CHECK (single source).
 
 ## Math worksheet
 Issue 1 cross-check: the court order says class members average "more than $26,000". Recompute: $5,000,000 minus fees $1,666,666.67 minus expenses $50,000 = $3,283,333.33; divided by 122 members = $26,912.57. Consistent with the order, so the $5M figure is internally confirmed. No $10M figure appears anywhere in the order.
