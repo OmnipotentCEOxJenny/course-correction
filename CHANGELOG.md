@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.7 (2026-10-20)
+- README follows the shared template: title, plain description, logo, existing content (Rob Domaine's four pillars unchanged), and a new final section "Honest assessment: what this plugin cannot do" listing real limits and the compliance statement.
+- TRANSLATIONS.md now covers the same 23 languages as every Omnipotent plugin (title, description and honest-assessment summary for each), all marked as machine translations not reviewed by native speakers.
+- Docs only; no behavior changes.
+
 ## 1.1.6 (2026-10-20)
 - Multi-language: the rule file and every skill tell the AI to answer in the user's language, keep commands, file names and status labels unchanged, and quote and correct material in its own language. Added TRANSLATIONS.md with short summaries in 20 languages (machine-made, not yet reviewed by a native speaker).
 - "No Google or Facebook services" reworded to "No Google or Facebook account is required" so it states the plugin's needs without blocking users' own sources.

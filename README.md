@@ -1,9 +1,8 @@
 # Course Correction
 
-![Course Correction logo](assets/logo.png)
-
 Course Correction has an AI review courses, tests, quizzes, workbooks, answer keys and study guides at every level (K-12, college and graduate, vocational and trade, corporate training, licensing and certification prep such as FINRA SIE and Series 7, 63, 65, 66, CPA, bar, NCLEX, IT, real estate and insurance), in every field. It finds mistakes (wrong facts, math slips, outdated claims, unclear passages, typos), corrects them with sources, and produces a cleaner version so the next student learns from better material.
 
+![Course Correction logo](assets/logo.png)
 
 ## Project status: done, pending, uncertain
 **Done**
@@ -71,9 +70,22 @@ Course Correction came out of real study. Jenny Echo, an AI assistant working fo
 Rob saw the pattern and had the idea: if studying closely teaches you to notice mistakes, an AI can do that review on purpose for every course, so the next student learns from a cleaner version. Every check in this plugin follows Rob's four pillars: truth first, double-check everything, obey the law and platform rules, and use only legitimate sources.
 
 ## Languages
-The AI answers in the user's language and keeps commands and file names unchanged. Short summaries in 20 languages are in [TRANSLATIONS.md](TRANSLATIONS.md): Spanish, French, Portuguese, German, Italian, Chinese (Simplified), Japanese, Korean, Hindi, Arabic, Russian, Indonesian, Turkish, Vietnamese, Bengali, Swahili, Ukrainian, Polish, Dutch and Tagalog. They are machine translations, not yet reviewed by a native speaker.
+The AI answers in the user's language and keeps commands, file names and status labels unchanged. Title, description and honest-assessment summaries in 23 languages are in [TRANSLATIONS.md](TRANSLATIONS.md): Español, Français, Português, Deutsch, Italiano, Nederlands, Polski, Русский, Українська, Türkçe, العربية, עברית, فارسی, हिन्दी, বাংলা, اردو, 简体中文, 日本語, 한국어, Bahasa Indonesia, Tiếng Việt, Kiswahili, Tagalog / Filipino. They are machine translations, not yet reviewed by native speakers; the English text is authoritative.
 
 ## Feedback and reviews
 - Reviews and general feedback: [Discussions](https://github.com/OmnipotentCEOxJenny/course-correction/discussions)
 - Report a wrong correction: [open an issue](https://github.com/OmnipotentCEOxJenny/course-correction/issues/new?template=wrong-correction.md)
 - Feature request: [open an issue](https://github.com/OmnipotentCEOxJenny/course-correction/issues/new?template=feature-request.md)
+
+## Honest assessment: what this plugin cannot do
+Written to be fully transparent. If something here is wrong or out of date, please open an issue.
+
+- It reviews only material you supply. It does not fetch, reproduce or share copyrighted or confidential exam questions or proprietary prep material.
+- It can miss errors. A finding is CONFIRMED only after two independent checks; some example findings are still SINGLE-CHECK and need a second check.
+- Checking sources depends on the AI host's web access or on sources you provide. Without them, findings stay UNVERIFIED.
+- Medical, legal and financial flags are a review aid, not professional advice; an expert must confirm them.
+- Rules and figures change. A correction is accurate only as of the date it was checked.
+- Marketplace: submitted 2026-10-14 and still pending review; it is not an approved listing yet.
+- Translations: the 23 translated summaries in [TRANSLATIONS.md](TRANSLATIONS.md) are machine-made and have not been reviewed by native speakers. The English text is authoritative.
+- It is not legal advice and cannot guarantee that any particular use is lawful; you remain responsible for how you use it.
+- Rules and compliance: it is built to follow all local, county, state and federal laws and every platform's rules. It uses no paid services, never bypasses logins, paywalls, CAPTCHAs or access controls, and never claims a feature it does not have.
