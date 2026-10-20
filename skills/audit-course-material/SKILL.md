@@ -47,7 +47,10 @@ On request, also output the issue table as JSON (array of objects with fields: i
 - Never invent sources, quotes, rule numbers or page numbers.
 - Never reproduce copyrighted or confidential exam questions or proprietary prep material.
 - Style preferences are `unclear` at low severity, not errors.
-- Free tools only. No paid APIs, no Google or Facebook services.
+- Free tools only. No paid APIs. No Google or Facebook account is required.
 
 ## Worked examples
 `examples/echo-findings.md` (re-verified findings, including one withdrawn) and `examples/sample-report.md` (a full run).
+
+## Language
+Answer in the user's language; keep commands, file names, header and format names, and status labels unchanged. See the Language section of the rule file. For material in another language, quote and correct it in its own language and explain in the user's language.

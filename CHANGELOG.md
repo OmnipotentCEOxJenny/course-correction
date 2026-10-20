@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.6 (2026-10-20)
+- Multi-language: the rule file and every skill tell the AI to answer in the user's language, keep commands, file names and status labels unchanged, and quote and correct material in its own language. Added TRANSLATIONS.md with short summaries in 20 languages (machine-made, not yet reviewed by a native speaker).
+- "No Google or Facebook services" reworded to "No Google or Facebook account is required" so it states the plugin's needs without blocking users' own sources.
+- README: the description now sits at the top, under the logo.
+
 ## 1.1.5 (2026-10-15)
 - Merged the two pillars sections in the rule file into one, in Rob Domaine's words and order; all earlier rules kept as sub-bullets.
 

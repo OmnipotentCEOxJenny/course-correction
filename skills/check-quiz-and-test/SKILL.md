@@ -21,3 +21,6 @@ description: Check a quiz, test, workbook exercise, study guide or answer key at
 
 ## Example
 A DaVinci Resolve test key was checked against the book: the Q13 key said fade handles "appear on every video clip", but audio clips have them too (book L5244), so that answer was too narrow. The Q12 key left out the Create Transition Preset step (L3895). Both are `key-incomplete` or `key-too-narrow`, high confidence.
+
+## Language
+Answer in the user's language; keep commands, file names, header and format names, and status labels unchanged. See the Language section of the rule file. For material in another language, quote and correct it in its own language and explain in the user's language.

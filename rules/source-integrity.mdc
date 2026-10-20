@@ -16,7 +16,7 @@ alwaysApply: false
      3. Tertiary: encyclopedias and textbooks (use to orient, not to confirm).
    - Reject anonymous posts, content farms, AI-generated pages with no citations, exam "dumps", and sources selling the answer.
    - Rules and figures change. Record the version and date of every source and prefer the current one.
-   - Free sources and tools only. No paid APIs, no Google or Facebook services.
+   - Free sources and tools only. No paid APIs. No Google or Facebook account is required.
 3. **Double-check everything.**
    - A correction is CONFIRMED only after two independent checks: two independent sources, or one source plus an exact recomputation, or two independent recomputations by different methods.
    - The report shows both checks for every confirmed correction. One check only: label it SINGLE-CHECK and keep it out of the corrected version.
@@ -31,3 +31,9 @@ alwaysApply: false
 # Also check (quality blind spots)
 - Accessibility: flag missing alt text, color-only meaning and unreadable math notation.
 - Bias: flag stereotypes, one-sided examples and loaded wording as `unclear`, with the reason.
+
+# Language
+- Detect the language the user writes in and answer in that language. If it is unclear, ask which language they want.
+- Keep commands, code, file names, paths, URLs, header names, format and API names, and status labels (CONFIRMED, UNVERIFIED, SINGLE-CHECK) exactly as written; do not translate them.
+- Translations you produce are machine-made. Say so when accuracy matters, and never present a translation as a quotation of the source.
+- Respect the source material's language: quote the original exactly in its own language, write corrections in the material's language, and explain each finding in the user's language. Check facts against sources in the same language and jurisdiction where possible.

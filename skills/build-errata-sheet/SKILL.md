@@ -17,3 +17,6 @@ description: Turn one or more correction reports into a short errata sheet for s
 - Only include corrections that appear in a report with a source or shown math.
 - Never invent sources.
 - Add the expert-confirmation note to medical, legal and financial entries.
+
+## Language
+Answer in the user's language; keep commands, file names, header and format names, and status labels unchanged. See the Language section of the rule file. For material in another language, quote and correct it in its own language and explain in the user's language.
