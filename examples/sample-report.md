@@ -18,7 +18,7 @@ Status for each issue is listed under Re-verification below (this report predate
 | 3 | L50 | unclear | low | "a company-name typo (£8.8M)" | £8.8M was the amount claimed, not awarded. Sebry v Companies House [2015] EWHC 115 (QB) found liability; the case settled on confidential terms (BBC, March 2017) | High Court judgment; BBC News | high |
 | 4 | L50, L388 | unclear | low | Currency shown as "$" for the Rogers case | Write "C$" (Canadian dollars) | Source documents are Canadian | high |
 | 5 | Book L9521 to L9522 | fact | medium | the trucker's comma case "went all the way to the supreme court" | It was decided by the U.S. Court of Appeals for the First Circuit (2017), then settled; it never reached the Supreme Court | Court order on settlement approval (says the judgment "was reversed on appeal"); Reuters: "a ruling by a federal appeals court" | high |
-| 6 | Book L9520 | fact | low | "one comma error in a 10-page contract" | The Globe and Mail describes it as a 14-page contract | Globe and Mail, "The $2-million comma"; contract itself not seen | medium |
+| 6 | Book L9520 | fact | low | "one comma error in a 10-page contract" | The Globe and Mail describes it as a 14-page contract | Globe and Mail, "Comma quirk irks Rogers" and "A $2-million comma?" ("14-page contract"); check 2 (2026-10-20): New York Times, 2006-10-25, "a single comma in the 14-page contract"; contract itself not seen | high |
 
 Origin check: the book text (books/technical-writing-essentials.txt) was opened. The errors start in the textbook, not in Echo's notes: L9520 says the Rogers comma "cost Rogers $2 million", L9522 says "a $10 million dollar payout", and L1079 to L1080 give "$2 million" and "£8.8 million". So these corrections apply to the book and to Echo's notes.
 
@@ -27,7 +27,8 @@ Origin check: the book text (books/technical-writing-essentials.txt) was opened.
 - #5 CONFIRMED, two checks: First Circuit opinion, O'Connor v. Oakhurst Dairy, 851 F.3d 69 (1st Cir. 2017), plus the court order saying the judgment "was reversed on appeal".
 - #2 CONFIRMED, two checks: CRTC Telecom Decision 2007-75 (reversal), plus Globe and Mail and Legal500 (about C$700,000).
 - #3 CONFIRMED, two checks: BBC News (claimed, then settled confidentially), plus The Guardian.
-- #4 and #6 SINGLE-CHECK (single source).
+- #6 CONFIRMED (2026-10-20), two checks: The Globe and Mail plus The New York Times (2006-10-25), both "14-page contract".
+- #4 SINGLE-CHECK (single source).
 
 ## Math worksheet
 Issue 1 cross-check: the court order says class members average "more than $26,000". Recompute: $5,000,000 minus fees $1,666,666.67 minus expenses $50,000 = $3,283,333.33; divided by 122 members = $26,912.57. Consistent with the order, so the $5M figure is internally confirmed. No $10M figure appears anywhere in the order.

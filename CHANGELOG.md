@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.9 (2026-10-20)
+- Example status labels updated after second checks (fresh text extraction from the original PDFs plus recalculation): Project Management items L6015, Table 12.4, Table 12.5, L6454, L6605 CONFIRMED; DaVinci L4947 and L3525 CONFIRMED, L5186 WITHDRAWN (not an error); TPW section 1.5 gap CONFIRMED (intent unknown).
+- Sample report #6 (Rogers "10-page contract") CONFIRMED as a 14-page contract with a second source (The New York Times, 2006-10-25) alongside The Globe and Mail; export-example.json updated. #4 remains SINGLE-CHECK.
+- Docs and examples only; no behavior changes.
+
 ## 1.1.8 (2026-10-20)
 - TRANSLATIONS.md: each of the 23 languages now includes this plugin's specific limits list (from the README's "Honest assessment: what this plugin cannot do" section) plus the marketplace status. Machine translations, not reviewed by native speakers.
 - Docs only; no behavior changes.

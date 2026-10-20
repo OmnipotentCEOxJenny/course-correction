@@ -12,7 +12,7 @@ Course Correction has an AI review courses, tests, quizzes, workbooks, answer ke
 - 2026-10-14: TWE comma-case corrections and the DaVinci A1, TPW "MIT" and Challenger memo-date findings CONFIRMED with two checks each.
 
 **Pending**
-- Low-priority examples are SINGLE-CHECK and still need a second independent check: the five project management book items, the low-severity DaVinci items, and TPW section 1.5.
+- 2026-10-20: the five project management book items, the DaVinci low-severity items and TPW section 1.5 received a second check (8 CONFIRMED, 1 WITHDRAWN). Second check = fresh text extraction from the original PDF plus recalculation, not an outside source.
 - Marketplace review: submitted 2026-10-14, pending, no approval yet.
 
 **Uncertain**
