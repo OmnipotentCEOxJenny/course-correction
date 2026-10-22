@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.10 (2026-10-21)
+- Added `tests/check_frontmatter.py`: a strict YAML front-matter check (PyYAML `safe_load`) for every SKILL.md and rules .mdc file, plus a plugin.json JSON check. Run `python3 tests/check_frontmatter.py` from the repo root; it catches the unquoted-colon bug fixed in PluginPulse 1.0.2.
+- No behavior changes to skills or rules.
+
 ## 1.1.9 (2026-10-20)
 - Example status labels updated after second checks (fresh text extraction from the original PDFs plus recalculation): Project Management items L6015, Table 12.4, Table 12.5, L6454, L6605 CONFIRMED; DaVinci L4947 and L3525 CONFIRMED, L5186 WITHDRAWN (not an error); TPW section 1.5 gap CONFIRMED (intent unknown).
 - Sample report #6 (Rogers "10-page contract") CONFIRMED as a 14-page contract with a second source (The New York Times, 2006-10-25) alongside The Globe and Mail; export-example.json updated. #4 remains SINGLE-CHECK.
