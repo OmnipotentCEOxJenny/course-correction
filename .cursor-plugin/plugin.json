@@ -12,6 +12,7 @@
   "license": "MIT",
   "logo": "assets/logo.png",
   "keywords": [
+    "course-correction",
     "education",
     "course-review",
     "fact-checking",
@@ -47,6 +48,7 @@
     "history",
     "language-arts",
     "learning",
-    "multilingual"
+    "multilingual",
+    "jenny-echo"
   ]
 }
