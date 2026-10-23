@@ -7,7 +7,6 @@ Course Correction has an AI review courses, tests, quizzes, workbooks, answer ke
 ## Project status: done, pending, uncertain
 **Done**
 - 2026-10-20: v1.1.6 adds multi-language answers and 20 translated summaries (machine-made, not yet native-reviewed); full re-test PASS.
-- 2026-10-15: v1.1.5 merges the pillars into one section in Rob's words (rule file and README).
 - 2026-10-15: full re-test PASS (manifest, frontmatter, file links, JSON/CSV export columns, two end-to-end audits: TWE Appendix F and TLCL notes).
 - 2026-10-14: TWE comma-case corrections and the DaVinci A1, TPW "MIT" and Challenger memo-date findings CONFIRMED with two checks each.
 
@@ -32,18 +31,10 @@ License: MIT. Free to use.
 
 Repository and homepage: https://github.com/OmnipotentCEOxJenny/course-correction
 
-
 ## Quick start
 1. Install (see Installation).
 2. Give the agent a file: "Audit chapter 3 of this textbook with Course Correction."
 3. Get a correction report (two checks per fix), a corrected version, and optional JSON or CSV export.
-
-## Rob Domaine's four pillars
-Created by Rob Domaine and required in every audit:
-1. Trustworthy, honest, real data, truthful: never invent; anything unchecked is marked UNVERIFIED.
-2. Use only legitimate means: legitimate, proven sources and methods; unreliable sources rejected.
-3. Double-check everything: every finding is confirmed by two independent checks, and the report shows both.
-4. Stay within the law and rules always: local, county, state, federal and platform rules.
 
 ## Cautions
 - No copyrighted or confidential exam questions or proprietary prep material are reproduced. It audits what you supply.
@@ -54,7 +45,7 @@ Created by Rob Domaine and required in every audit:
 - `skills/audit-course-material`: the core audit. Extracts claims, figures and calculations; checks facts against primary sources; recomputes math; flags outdated material; classifies each issue by type and severity; writes a correction report (original, correction, source, confidence) and an improved version.
 - `skills/check-quiz-and-test`: checks quizzes, tests and answer keys against the material.
 - `skills/build-errata-sheet`: turns correction reports into a one-page errata sheet.
-- `rules/source-integrity.mdc`: the four pillars, plus checks for student privacy, accessibility, bias and non-English material.
+- `rules/source-integrity.mdc`: checks for student privacy, accessibility, bias and non-English material.
 - `skills/audit-course-material/references/field-guide.md`: what to check in each field and which authoritative sources to use.
 - `examples/`: real findings and a full sample report.
 
@@ -67,12 +58,11 @@ Copy this folder to `~/.cursor/plugins/local/course-correction/`, or install fro
 ## Usage
 Ask: "Audit chapter 3 of this textbook with Course Correction" and supply the file.
 
-
 ## How it started
 
 Course Correction came out of real study. Jenny Echo, an AI assistant working for Rob Domaine, was working through textbooks and courses one by one, taking notes, doing the exercises and sitting closed-book tests graded against each book. Learning the material deeply is what made the mistakes visible. A settlement figure didn't match the court record. A step that turned audio off never turned it back on. A memo date and an engineer's employer didn't match the official commission report. A section number was missing from the table of contents. Each time, checking the book against primary sources showed that the book itself was wrong, not the student.
 
-Rob saw the pattern and had the idea: if studying closely teaches you to notice mistakes, an AI can do that review on purpose for every course, so the next student learns from a cleaner version. Every check in this plugin follows Rob's four pillars: truth first, double-check everything, obey the law and platform rules, and use only legitimate sources.
+Rob saw the pattern and had the idea: if studying closely teaches you to notice mistakes, an AI can do that review on purpose for every course, so the next student learns from a cleaner version.
 
 ## Languages
 The AI answers in the user's language and keeps commands, file names and status labels unchanged. Title, description and honest-assessment summaries in 23 languages are in [TRANSLATIONS.md](TRANSLATIONS.md): Español, Français, Português, Deutsch, Italiano, Nederlands, Polski, Русский, Українська, Türkçe, العربية, עברית, فارسی, हिन्दी, বাংলা, اردو, 简体中文, 日本語, 한국어, Bahasa Indonesia, Tiếng Việt, Kiswahili, Tagalog / Filipino. They are machine translations, not yet reviewed by native speakers; the English text is authoritative. Each language section in TRANSLATIONS.md also starts with a one-line machine-translation notice in that language.

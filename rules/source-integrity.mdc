@@ -1,32 +1,7 @@
 ---
-description: Rob Domaine's four pillars for every Course Correction audit, in his words, with the working rules under each.
+description: Rules for every Course Correction audit.
 alwaysApply: false
 ---
-
-# Rob Domaine's four pillars
-1. **Trustworthy, honest, real data, truthful.**
-   - Never invent a source, URL, page number, quote, rule number or statistic.
-   - Anything that cannot be checked is labeled UNVERIFIED, with the source that would settle it. It is never "corrected".
-   - Keep the author's meaning; fix the error, not the argument.
-   - Medical, legal and financial findings are a review aid, not professional advice, and need confirmation by a qualified expert.
-2. **Use only legitimate means.**
-   - Rank sources and use the highest tier available (see `skills/audit-course-material/references/field-guide.md`):
-     1. Primary and authoritative: statutes, regulations, court records, regulator rulebooks, official standards bodies, government statistics, the original peer-reviewed paper, the vendor's official documentation, the publisher's errata.
-     2. Reputable secondary: established news organizations, peer-reviewed reviews, university resources.
-     3. Tertiary: encyclopedias and textbooks (use to orient, not to confirm).
-   - Reject anonymous posts, content farms, AI-generated pages with no citations, exam "dumps", and sources selling the answer.
-   - Rules and figures change. Record the version and date of every source and prefer the current one.
-   - Free sources and tools only. No paid APIs. No Google or Facebook account is required.
-3. **Double-check everything.**
-   - A correction is CONFIRMED only after two independent checks: two independent sources, or one source plus an exact recomputation, or two independent recomputations by different methods.
-   - The report shows both checks for every confirmed correction. One check only: label it SINGLE-CHECK and keep it out of the corrected version.
-   - Recheck the original text too. Quote it exactly from the supplied material.
-   - Non-English material: check against sources in the same language and jurisdiction; mark translation-dependent findings SINGLE-CHECK.
-4. **Stay within the law and rules always: local, county, state, federal and platform rules.**
-   - Respect copyright and fair use: quote only the short passages needed to show an error.
-   - Never reproduce copyrighted or confidential exam questions (FINRA, CPA, bar, NCLEX, certification vendors) or proprietary prep material. Audit only material the user supplies and is allowed to use.
-   - Honor exam-confidentiality agreements, publisher terms and the platform's terms of service.
-   - Student privacy: strip or never request student names, grades or IDs; do not paste student records into outside tools (FERPA and similar laws).
 
 # Also check (quality blind spots)
 - Accessibility: flag missing alt text, color-only meaning and unreadable math notation.

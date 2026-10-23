@@ -5,24 +5,24 @@ description: Fact-check, error-check and correct education material. Use wheneve
 
 # Audit course material
 
-Follow Rob Domaine's four pillars in `rules/source-integrity.mdc` at every step. They are required, not optional.
+Follow `rules/source-integrity.mdc` at every step. It is required, not optional.
 
 ## Inputs
 - The material (required), supplied by the user. Record title, edition, date, level, field and location markers (page, line, section, question number).
 - Optional: jurisdiction, exam or standard version (for example "Series 7 outline, current edition", "NEC 2023"), sources the user trusts.
 
 ## Workflow
-1. **Pillar 3 gate (laws and platform rules).** Confirm the user supplied the material. If it looks like confidential exam content or proprietary prep material the user may not share, stop and say so. Quote only short excerpts in the report.
+1. **Gate (laws and platform rules).** Confirm the user supplied the material. If it looks like confidential exam content or proprietary prep material the user may not share, stop and say so. Quote only short excerpts in the report.
 2. **Identify field and level.** Open `references/field-guide.md`, pick the row(s) that apply, and note the authoritative sources and the current version and date to check against.
 3. **Extract.** List every checkable item with its location: facts, names, dates, figures, money amounts, rule and statute numbers, formulas, calculations, cross-references, numbering, commands and UI steps, answer-key answers.
-4. **Check facts (pillar 4).** Use the highest source tier available. Record source title, issuing body, version or date, and where in it the answer is. Reject unreliable sources.
+4. **Check facts.** Use the highest source tier available. Record source title, issuing body, version or date, and where in it the answer is. Reject unreliable sources.
 5. **Recompute the math.** Redo each calculation from its inputs. Show the steps. Separate rounding from real errors.
 6. **Check internal consistency.** Cross-references, numbering, settings changed in one step and assumed later, answer keys vs the text.
 7. **Flag outdated material.** Any rule, limit, rate, code edition, guideline or software version that changed since publication. Give the current value and its effective date.
-8. **Double-check (pillar 2).** For each finding, do a second independent check: a second independent source, or a recomputation by a different method, or a recheck of the original text. Status:
+8. **Double-check.** For each finding, do a second independent check: a second independent source, or a recomputation by a different method, or a recheck of the original text. Status:
    - `CONFIRMED`: two independent checks agree.
    - `SINGLE-CHECK`: only one check possible.
-   - `UNVERIFIED` (pillar 1): no legitimate source reachable. Never guess.
+   - `UNVERIFIED`: no legitimate source reachable. Never guess.
    - `WITHDRAWN`: the second check showed the material was right. Keep it in the report so the reasoning is visible.
 9. **Classify.** Type (`fact`, `math`, `outdated`, `unclear`, `typo`, `structure`), severity (`high` teaches a wrong answer or fails a student, `medium` misleading, `low` cosmetic) and confidence (`high`, `medium`, `low`).
 10. **High-stakes label.** For medical, legal and financial findings add "Review aid, not professional advice. Needs expert confirmation."

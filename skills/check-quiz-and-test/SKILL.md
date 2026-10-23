@@ -14,7 +14,7 @@ description: Check a quiz, test, workbook exercise, study guide or answer key at
 6. Output a table: question number, issue, evidence (location), suggested fix, confidence.
 
 ## Guardrails
-- Follow the four pillars in `rules/source-integrity.mdc`. Every flagged key error needs two independent checks before it is reported as CONFIRMED.
+- Follow `rules/source-integrity.mdc`. Every flagged key error needs two independent checks before it is reported as CONFIRMED.
 - Never reproduce copyrighted or confidential exam questions (licensing and certification exams included). Work only on material the user supplies.
 - A key can be wrong. Do not assume the key or the book is right; cite the passage.
 - Never invent sources. Mark unresolvable questions UNVERIFIED.
