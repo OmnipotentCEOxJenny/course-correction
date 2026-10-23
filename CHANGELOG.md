@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.12 (2026-10-23)
+- Search keywords: 33 to 40 (added CertificationPrep, VocationalTraining, CorporateTraining, GraduateSchool, workbooks, quizzes, SecondCheck); K12 written as k12 (single words lowercase, per Rob's keyword rules).
+- Local tests re-run and passed. Not tested in-app. Not submitted to the marketplace.
+
 ## 1.1.11 (2026-10-22)
 - Logo resized from 512x512 to 1024x1024 to match the rest of the plugin set (same artwork, no visual change). No behavior changes.
 

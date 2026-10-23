@@ -1,7 +1,7 @@
 {
   "name": "course-correction",
   "displayName": "Course Correction",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "Audits courses, tests, answer keys and study guides at any level and in any field, double-checks every correction against authoritative sources, and outputs a correction report plus a cleaner version.",
   "author": {
     "name": "Rob Domaine / Omnipotent Media LLC"
@@ -27,7 +27,7 @@
     "tutors",
     "ExamPrep",
     "LicensingExamPrep",
-    "K12",
+    "k12",
     "college",
     "curriculum",
     "LessonPlans",
@@ -44,6 +44,13 @@
     "history",
     "LanguageArts",
     "JennyEcho",
-    "OmnipotentCeo"
+    "OmnipotentCeo",
+    "CertificationPrep",
+    "VocationalTraining",
+    "CorporateTraining",
+    "GraduateSchool",
+    "workbooks",
+    "quizzes",
+    "SecondCheck"
   ]
 }
